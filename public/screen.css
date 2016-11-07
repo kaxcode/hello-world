@@ -1,0 +1,36 @@
+body {
+  background-color: #FFC0CB
+}
+
+h1 {
+  font-family: 'Playball', cursive;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+p {
+  width:40em;
+  margin:auto;
+  padding-top: 1em;
+}
+
+h2, h3, div, p {
+  font-family: 'Cantarell', sans-serif;
+}
+
+.list-title {
+  text-align: center;
+  margin: auto;
+  padding-top: 1em;
+}
+
+.list {
+  text-align: left;
+  margin: auto;
+  width: 20em;
+}

@@ -1,25 +1,43 @@
 body {
-  background-color: #FFC0CB
+  background-color: #cc9ba3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content section styling */
+
+div.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 194, 204, 0.77);
+  width: 80%;
+  border-radius: 2em;
 }
 
 h1 {
   font-family: 'Playball', cursive;
   font-size: 5em;
   text-align: center;
+  margin-bottom: 0.4em;
 }
 
 h2 {
-  text-align: center;
+  margin: 0;
 }
 
+p.answers {
+  width: 70%;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
 
+h2,
+h3,
+div,
 p {
-  width:40em;
-  margin:auto;
-  padding-top: 1em;
-}
-
-h2, h3, div, p {
   font-family: 'Cantarell', sans-serif;
 }
 
@@ -27,10 +45,31 @@ h2, h3, div, p {
   text-align: center;
   margin: auto;
   padding-top: 1em;
+  font-weight: bold;
 }
 
 .list {
   text-align: left;
   margin: auto;
   width: 20em;
+}
+
+.adventure-mode {
+  font-family: 'Playball', cursive;
+  font-size: 1.6em;
+  width: 70%;
+  padding-top: 1em;
+  color: #000;
+}
+
+.terminal {
+  display: block;
+  box-sizing: border-box;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: center;
+  margin-bottom: 3em;
+  height: 20em;
+  border: 2px solid #000;
 }
